@@ -1,0 +1,40 @@
+{
+  "name": "kraken-cucumber-101",
+  "version": "0.1.0",
+  "description": "Setting up a sample kraken repo and adding cucumber tests.",
+  "author": "Ajay Changulani",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "kraken-js": "^1.0.1",
+    "kraken-devtools": "^1.0.0",
+    "engine-munger": "^0.2.0",
+    "express": "^4.3.0",
+    "requirejs": "^2.1.18",
+    "localizr": "^0.1.6"
+  },
+  "devDependencies": {
+    "cucumber": "^0.5.0",
+    "grunt": "^0.4.5",
+    "grunt-config-dir": "^0.3.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-copy-to": "0.0.10",
+    "grunt-cucumber": "^0.3.0",
+    "grunt-localizr": "^0.1.4",
+    "grunt-mocha-cli": "^1.13.0",
+    "mocha": "^1.18.0",
+    "supertest": "^0.9.0"
+  },
+  "generator-kraken": {
+    "version": "1.1.1",
+    "template": false,
+    "css": false,
+    "js": "requirejs",
+    "task": "grunt"
+  }
+}
